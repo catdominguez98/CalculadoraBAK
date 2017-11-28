@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body bgcolor="#FF384B">
+		<div id="wrapperHeader">
+			<div id="header">
+			<td> <img src="banneramarillo.png" height="200" width="570"> </td>
+			<td> <img src="profilerojo.png" heigth="200" width="200"> </td>
+			<td> <img align="right" src="banneramarillo.png" height="200" width="570"> </td>
+			</div>
+		</div>
+		<font color="yellow" face="verdana" size="number"><p align="left">¿No sabes el peso de tu mascota?<br>
+			A continuación tenemos una guía que te podrá ayudar<br>
+			Selecciona la raza de tu mascota
+		</p></font>
+	<div class="col1">
+	<form name="breed" action=" ">
+	<select id ="change_chart">
+		<option value="chi" selected>Chihuahua</option>
+		<option value="sch" >Schnauzer</option>
+		<option value="poo" >Poodle</option>
+		<option value="lab">Labrador</option>
+		<option value="pug">Pug</option>
+		<option value="bor">Border Collie</option>
+		<option value="cor">Corgi</option>
+		<option value="sal">Salchicha</option>
+	</select> 
+	</form>
+			<button id="choo" onClick="chooseBreed()">Escoger Raza</button>
+			<img id="img1" src="">
+	</div>
+		<font color="yellow" face="verdana" size="number"><p align="center">Selecciona la edad de tu mascota</p>
+		</font>
+	<div align="center">
+	<select id="age_chart">
+		<option value="1" selected>Cachorro 0-3 meses </option>
+		<option value="2"> Cachorro 4-6 meses </option>
+		<option value="3"> Jóven 7-11 meses </option>
+		<option value="4"> Adulto 1 año en adelante</option>
+	</select>
+	</div>
+		<font color="yellow" face="verdana" size="number"><p align="center">Ingresa el peso en kg de tu mascota</p>
+		</font>
+		<center>
+		<form name="box">
+		<input type="text" name="textie" id="txt">
+	</form>
+	</center>
+		<center>
+		<button id="calc" onClick="calcAlimento()">Calcular</button>
+		<div id="div1"></div>
+	</div
+		</center>
+		<div id="precios">
+			<div id="banner">
+			<img align="rigth" src="precios.jpg" height="400" width="auto">
+			</div>
+		</div>
+</body>
+	<style>
+		.col1{
+			float: left;
+			width: 200px;
+			height: 200px;
+		} 
+	</style>
+</html>
+<script src="calculadora3plssyaaa.js">
+</script>
